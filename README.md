@@ -1,6 +1,10 @@
 Can't find box on vagrant cloud
 ---
 
+# Vagrant Version
+
+1.7.3
+
 # Missing Box
 
 ffuenf/debian-8.0.0-amd64
