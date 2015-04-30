@@ -7,6 +7,31 @@ ffuenf/debian-8.0.0-amd64
 
 Atlas URL: https://atlas.hashicorp.com/ffuenf/boxes/debian-8.0.0-amd64
 
+# Output
+
+```
+➜  avril git:(master) ✗ vagrant up
+Bringing machine 'default' up with 'vmware_fusion' provider...
+
+
+==> default: Box 'ffuenf/debian-8.0.0-amd64' could not be found. Attempting to find and install...
+    default: Box Provider: vmware_desktop, vmware_fusion, vmware_workstation
+    default: Box Version: >= 0
+==> default: Loading metadata for box 'ffuenf/debian-8.0.0-amd64'
+    default: URL: https://atlas.hashicorp.com/ffuenf/debian-8.0.0-amd64
+The box you're attempting to add doesn't support the provider
+you requested. Please find an alternate box or use an alternate
+provider. Double-check your requested provider to verify you didn't
+simply misspell it.
+
+If you're adding a box from HashiCorp's Atlas, make sure the box is
+released.
+
+Name: ffuenf/debian-8.0.0-amd64
+Address: https://atlas.hashicorp.com/ffuenf/debian-8.0.0-amd64
+Requested provider: ["vmware_desktop", "vmware_fusion", "vmware_workstation"]
+```
+
 # Steps to Reproduce
 
 1. Use Vagrant VMWare Fusion provider
